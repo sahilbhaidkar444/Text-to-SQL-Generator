@@ -20,8 +20,8 @@ CREATE TABLE ANIME (
 """
 
 cursor.execute(table_info)
-
-student_data = [
+# Dummy data for database.
+anime_data = [
     (32281, 'Kimi no Na wa.', 'Drama, Romance, School, Supernatural', 'Movie', '1', 9.37, 200630),
     (5114, 'Fullmetal Alchemist: Brotherhood', 'Action, Adventure, Drama, Fantasy, Magic, Military, Shounen', 'TV', '64', 9.26, 793665),
     (9253, 'Steins;Gate', 'Sci-Fi, Thriller', 'TV', '24', 9.17, 673572),
@@ -40,7 +40,7 @@ student_data = [
 ]
 
 # Iterate through the list and execute INSERT statements
-for data in student_data:
+for data in anime_data:
     cursor.execute("INSERT INTO ANIME VALUES (?, ?, ?, ?, ?, ?, ?)", data)
 
 # Display all the records
