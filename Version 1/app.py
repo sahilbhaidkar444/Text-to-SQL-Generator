@@ -32,12 +32,7 @@ def read_sql_query(sql, db):
 # Define your prompt:
 prompt = [
     """
-    You are an expert in converting English questions to SQL Query!
-    The SQL Database has the name ANIME and has the following columns - ID, NAME, GENRE, TYPE, EPISODES, RATING, and MEMBERS \n\n
-    For example, \nExample 1 - How many unique genres are there? the SQL command will be like this SELECT COUNT(DISTINCT GENRE) FROM ANIME;
-    \nExample 2 - Show me the top 5 anime titles with the highest ratings? the SQL Command will be like this
-    SELECT NAME, RATING FROM ANIME ORDER BY RATING DESC LIMIT 5;
-    also, the SQL code should not have ''' in the beginning or end and SQL word in output 
+    Please enter your prompt here. 
 """
 ]
 
