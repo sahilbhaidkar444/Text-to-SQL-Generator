@@ -59,7 +59,6 @@ To get started with the Text to SQL Project with a static anime database, follow
 ```sql
 SELECT * FROM anime WHERE rating > 8;
 
-- Data Display:
 
 | id |       title        | episodes | rating |
 |----|--------------------|----------|--------|
@@ -67,7 +66,7 @@ SELECT * FROM anime WHERE rating > 8;
 | 2  | Attack on Titan    | 59       | 8.5    |
 | 3  | Fullmetal Alchemist| 64       | 9.1    |
 
-
+```
 # Contributions
 
 Contributions are welcome! If you would like to contribute to this project, feel free to submit a pull request.
