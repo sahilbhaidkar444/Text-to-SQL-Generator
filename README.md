@@ -12,6 +12,13 @@ This project utilizes Google's Generative AI API and Streamlit to create a user-
 - **Data Display**: The application displays the data in the database based on user queries.
 - **Easy Deployment**: Streamlit allows for simple deployment of the application.
 
+## Libraries Used
+
+- **Streamlit**: For creating the interactive web application.
+- **Google's Generative AI API**: For natural language processing to understand user queries.
+- **sqlite3**: For interacting with SQLite databases.
+- **dotenv**: For loading environment variables from a .env file.
+
 ## Getting Started
 
 To get started with the Text to SQL Project with a static anime database, follow these steps:
@@ -19,7 +26,7 @@ To get started with the Text to SQL Project with a static anime database, follow
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone https://github.com/yourusername/text-to-sql-project.git
+    git clone https://github.com/sahilbhaidkar444/Text-to-SQL-Generator.git
     ```
 
 2. Install the necessary dependencies. Make sure you have Python installed on your system. You can install dependencies using pip:
@@ -31,7 +38,7 @@ To get started with the Text to SQL Project with a static anime database, follow
 3. Run the Streamlit application for the static anime database:
 
     ```bash
-    streamlit run app_static.py
+    streamlit run app.py
     ```
 
 4. Open your web browser and navigate to the URL provided by Streamlit to access the Text to SQL interface.
